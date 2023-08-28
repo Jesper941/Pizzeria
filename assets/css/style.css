@@ -1,0 +1,35 @@
+#header {
+    background-image: url('https://www.11inchpizza.com.au/wp-content/uploads/2019/10/pizza-ingredients-768x513.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f5deb3;
+
+}
+
+.text-container {
+    background-color: rgba(255, 248, 220, 0.823);
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header h1 {
+    font-size: 46px;
+}
+
+header p {
+    font-size: 24px;
+    font-style: italic;
+    color: red;
+}
