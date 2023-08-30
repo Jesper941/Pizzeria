@@ -1,35 +1,359 @@
+/*Here is the styling for the header and the background picture*/
 #header {
     background-image: url('https://www.11inchpizza.com.au/wp-content/uploads/2019/10/pizza-ingredients-768x513.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 22em;
     text-align: center;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #f5deb3;
-
 }
 
-.text-container {
-    background-color: rgba(255, 248, 220, 0.823);
-    color: black;
+/*You can edit the cream-colored text container that resides in the header here*/
+.transparent-container {
+    background-color: rgb(255 248 220 / 82%);
+    width: 90%;
+    max-width: 100%;
+    margin: auto;
     padding: 20px;
     border-radius: 10px;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
+/*Edit the headers h1 font-size here*/
 header h1 {
-    font-size: 46px;
+    font-size: 3em;
 }
+
+/*Edit the headers paragraph font-size here*/
 
 header p {
-    font-size: 24px;
+    font-size: 2em;
     font-style: italic;
     color: red;
+    text-decoration: underline green;
+    -webkit-text-stroke: 0.002em black;
+    /*Adjust black shadow behind the paragraph in the header here*/
+}
+
+/*Edit the font-sizes of the headers h1 and paragraph depending on screen-size here*/
+
+@media screen and (max-width: 768px) {
+    /*Adjust device width here*/
+
+    header p {
+        font-size: 2em;
+        /*Adjust font-size here*/
+    }
+
+    header h1 {
+        font-size: 2.5em;
+        /*Adjust font-size here*/
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    /*Adjust device width here*/
+
+    header p {
+        font-size: 1.5em;
+        /*Adjust font-size here*/
+    }
+
+    header h1 {
+        font-size: 2em;
+        /*Adjust font-size here*/
+    }
+}
+
+/*Edit general styling and the background image for the body element here*/
+body {
+    background-image: url('../images/Pizza-background.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/*The div that controls how the text container on the home page will display*/
+.home-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: 3.54em;
+    background-color: rgba(255, 248, 220, 0.823);
+    font-size: 1.25rem;
+}
+
+/*Add more margin and padding to the container to keep everything centered and neat*/
+.info-container {
+    flex: 1;
+    padding-left: 20px;
+    margin-bottom: 70px;
+}
+
+/*The h1 on the home page*/
+.h1-homepage {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*The paragraph on the home page*/
+.h1-homepage p {
+    font-size: 1.5rem;
+    justify-content: center;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/*For general editing of the nav bar*/
+nav {
+    margin-top: auto;
+}
+
+/*Here you can edit the nav bar container, the list styling 
+and the font-style for the navigation bar*/
+nav ul {
+    list-style-type: none;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgba(255, 248, 220, 0.823);
+    padding: 1.5em;
+    margin-top: 5%;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+/*Here you can edit the pseudo-elements of the links in the nav bar*/
+
+a.nav-link:visited {
+    /*Styling for once you've clicked a link*/
+    color: #fb3f00;
+    text-decoration: none;
+}
+
+a.nav-link:hover {
+    /*Styling for when you're hovering over a link with the mouse*/
+    color: #fb3f00;
+    text-decoration: none;
+}
+
+
+/*Here starts the styling for the "Menus.html"*/
+
+/*Styling for how the section is displayed and centered*/
+.menu-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Here you can edit the blocks within the container above*/
+.menu-block {
+    flex: 1;
+    flex-basis: 33%;
+    max-width: 1000px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 248, 220, 0.823);
+    padding: 2em;
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*Edit the general font-size for all h2 headings here*/
+h2 {
+    font-size: 3rem;
+}
+
+/*Here's the font-size styling for the h2 heading in the Contact block in "findus.html"*/
+#h2-contact {
+    font-size: 1.75rem;
+}
+
+/*Change the size and styling of the names of the pizzas here*/
+ol li {
+    text-align: start;
+    font-size: 1.5rem;
+    margin-top: 24px;
+    font-weight: bold;
+}
+
+/*Change the size and styling of the names of the toppings here*/
+dt {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-top: 3px;
+}
+
+/*Here starts the styling for the "finduss.html*/
+
+/*Here is the styling for the section where you can change how the "Contact" and 
+"Find us" sections are going to behave*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Styling for the two different sections to keep everything centered and responsive*/
+.findus-section,
+.contact-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+}
+
+
+/*Here you can edit the styling of the text containers and 
+background styling for the "Contact us and "Find Us" blocks*/
+.findus-block,
+.contact-block {
+    flex: 1;
+    max-width: 1000px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 248, 220, 0.823);
+    padding: 2em;
+    font-size: 1.2rem;
+    margin: 5px, 5px, 20px, 5px;
+    padding: 5px;
+}
+
+/*Edit the styling for the headings in both the "Contact" and 
+"Find Us" parts of the "findus.html" page*/
+#contact-heading,
+#findus-heading {
+    font-size: 3.2em;
+}
+
+/*Here you can edit the table with opening times on the Contact page.*/
+table {
+    width: 50%;
+    margin: auto;
+    border: black solid 2px;
+    text-align: left;
+}
+
+/*Change padding or font-styles and sizes for the table headings and data here*/
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/*Decides how the contact form should be displayed*/
+.contact-form {
+    display: block;
+}
+
+/*Here you can change the fieldset surrounding the contact form*/
+fieldset {
+    border-width: 2px auto;
+    max-width: 600px;
+    margin: 5% auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#message,
+input,
+label {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button.submit {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#information {
+    text-align: left;
+    justify-content: start;
+    margin-left: 70px;
+    padding-left: 70px;
+}
+
+/*Here are the buttons for both the menu page and the contact page*/
+#top-button,
+#top-menubutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1em;
+    background-color: white;
+    color: red;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 10px;
+    align-self: center;
+    max-width: 350px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/*Edit the styling for the footer here*/
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 248, 220, 0.936);
+    padding: 15px;
+}
+
+/*Edit the styling for the unordered list in the footer here*/
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px;
+    margin: 0;
+}
+
+/*Styling for the <li> elements in the footer goes here*/
+footer li {
+    font-family: "Arial", sans-serif;
+    font-size: 1.2rem;
+}
+
+/*Styling for the anchor elements in the footer goes here*/
+
+footer a {
+    text-decoration: none;
+    color: black;
+    text-align: right;
+}
+
+/*Change the effects and styling for when you hover over the links in the footer here*/
+
+footer a:hover {
+    color: green;
 }

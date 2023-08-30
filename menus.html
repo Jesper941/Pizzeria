@@ -1,28 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <metaname="description" content="A small family owned pizzeria in the heart of Montreal that makes authentic Italian style pizzas."/>
-    <meta
-      name="keywords"
-      content="pizzeria, pizza, italian pizza, food, restaurant, montreal"
-    />
-    <link rel="stylesheet" href="style.css">
+<!--head-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--A metadata with a small description of the site-->
+    <meta name="description"
+        content="A small family owned pizzeria in the heart of Montreal that makes authentic Italian style pizzas.">
+    <!--Keywords for search engines-->
+    <meta name="keywords" content="pizzeria, pizza, italian pizza, food, restaurant, montreal">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--This script allows me to add icons in the footer-->
+    <script src="https://kit.fontawesome.com/eb77d55882.js" crossorigin="anonymous"></script>
+    <!--Title of the webpage-->
     <title>Palermo Pizzeria</title>
-  </head>
-  <body>
-    <header>
-      <h1>Welcome to Palermo Pizzeria</h1>
-      <p>A taste of Italy in the heart of Montreal</p>
-      <nav>
+</head>
+
+<body>
+    <section>
+        <div>
+            <!--Header-->
+            <header id="header">
+                <!--Div that creates the cream text container where the h1 and paragrapg is in-->
+                <div class="transparent-container">
+                    <h1>
+                        Welcome to <span style="color: red">Palermo</span><span style="color: green"> Pizzeria</span>
+                    </h1>
+                    <p>A taste of Italy in the heart of Montreal</p>
+                    <!--Inline styling to make this a bit bigger-->
+                    <address style="font-size: 1.4em;">Reserve a table on: +1 514-861-503-25</address>
+                </div>
+            </header>
+            <div>
+                <nav>
+                    <ul>
+                        <li> <a href="index.html" class="nav-link" style="color: red;">Home</a></li>
+                        <li> <a href="menus.html" class="nav-link" style="color: rgb(4, 167, 4);" :>Menu</a></li>
+                        <li> <a href="findus.html" class="nav-link">Contact</a></li>
+                    </ul>
+            </div>
+            </nav>
+            <div>
+            </div>
+    </section>
+    <main>
+        <section class="menu-section">
+            <div class="menu-block">
+                <h2 style="color: red">Classical Pizzas</h2>
+                <hr>
+                <ol type="1">
+                    <li>Margherita<dt style="font-style: italic;">Mozzaerlla, Tomato Sauce, Basil</dt>
+                    </li>
+                    <li>Vesuvio<dt style="font-style: italic;">Smoked Italian Ham, Tomato Sauce, Mozzarella, Oregano</dt>
+                    </li>
+                    <li>Calzone (baked)<dt style="font-style: italic;">Smoked Italian Ham, Tomato Sauce, Mozzarella, Oregano</dt>
+                    </li>
+                    <li>Gondola (baked)<dt style="font-style: italic;">Minced Meat Ragout (Minced Beef with Vegetables), Tomato Sauce, Mozzaerlla, Parmesan, Oregano</dt>
+                    </li>
+                    <li>Hawaii<dt style="font-style: italic;">Smoked Italian Ham, Pineapple, Tomato Sauce, Mozzarella</dt>
+                    </li>
+                    <li>Bolognese<dt style="font-style: italic;">Minced Beef, Onion, Garlic Cloves, Tomato Sauce, Mozarella</dt>
+                    </li>
+                    <li>Capricciosa<dt style="font-style: italic;">Smoked Italian Ham, Mushrooms, Hard-boiled Egg, Tomato Sauce, Mozzarella</dt>
+                    </li>
+                    <li>Quattro Stagioni<dt style="font-style: italic;">Divided into quadrants: Artichokes, Olives, Ham, Mushrooms with Tomato Sauce and Mozzarella.</dt>
+                    </li>
+                    <li>Pepperoni<dt style="font-style: italic;">Pepperoni, Onion, Bell Peppers, Jalapeno, Tomato Sauce, Mozzarella</dt>
+                    </li>
+                    <li>Africana<dt style="font-style: italic;">Pineapple, Banana, Curry, Smoked Italian Ham</dt>
+                    </li>
+                </ol>
+            </div>
+            <div class="menu-block" style="background-color:rgba(255, 253, 238, 0.823);">
+                <h2 style="color: green">Meat Pizzas</h2>
+                <hr>
+                <ol start="11">
+                    <li>Diavolo<dt style="font-style: italic;">Spicy salami, Red onion, Mozzarella, Tomato sauce,
+                            Oregano, Parmesan</dt>
+                    </li>
+                    <li>Ciao Ciao<dt style="font-style: italic;">Pork Fillet, Onion, Fresh Garlic, Béarnaise Sauce, Mozzarella</dt></li>
+                    <li>Amante Della Carne<dt style="font-style: italic;">Smoked Italiam Ham, Italian Sausage, Bacon, Oregano, Tomato sauce, Mozarella</dt>
+                    </li>
+                    <li>BBQ Chicken<dt style="font-style: italic;">Grilled chicken, Red Onion, BBQ Sauce, Mozarella, Cilantro</dt>
+                    </li>
+                    <li>Spicy Sausage<dt style="font-style: italic;">Tomato sauce, Mozzarella, Spicy Italian sausage, Bell peppers, Onions, Jalapeños</dt>
+                    </li>
+                    <li>Mediterranea Carne<dt style="font-style: italic;">Mozzarella, Lamb, Red onion, Tomato, Feta cheese, Tomato Sauce.
+                    </dt>
+                    </li>
+                    </li>
+                    <li>Italian Sausage and Peppers<dt style="font-style: italic;">Tomato Sauce, Mozzarella, Italian Sausage, Bell Peppers, Red Onion</dt>
+                    </li>
+                    <li>Pepperoni and Jalapeño Burst<dt style="font-style: italic;">Tomato sauce, Mozzarella, Smoked Italian Ham, Pepperoni, Jalapeño</dt>
+                    </li>
+                    <li>Hawaiian BBQ Bacon<dt style="font-style: italic;">BBQ sauce, Mozzarella, Smoked Italian Ham, Bacon, Pineapple</dt>
+                    </li>
+                    <li>Meatball Mania<dt style="font-style: italic;">Tomato sauce, Mozzarella, Meatballs, Roasted Garlic, Basil</dt>
+                    </li>
+                </ol>
+            </div>
+            <div class="menu-block">
+                <h2 style="color: green" style="text-decoration: underline black;">Vegetarian Pizzas</h2>
+                <hr>
+                <ol start="21">
+                    <li>Margarhita<dt style="font-style: italic;">Cheese, Tomato Sauce, Basil</dt></li>
+                    <li>Quattro Formaggio<dt style="font-style: italic;">Gorgonzola, Taleggio, Pecorino, Mozzarella,Tomato Sauce, Oregano</dt>
+                    </li>
+                    <li>Florenzi<dt style="font-style: italic;">Zucchini, Mushrooms, Broccoli, Asparagus, Cherry Tomatoes, Mozzarella, Tomato Sauce, Oregano, Parmesan</dt>
+                    </li>
+                    <li>Tartufone<dt style="font-style: italic;">Tomato Sauce, Mozzarella, Artichoke, Olive Oil With Truffle, Taleggio, Parmesan, Oregano</dt>
+                    </li>
+                    <li>Verde<dt style="font-style: italic;">Creme Fraiche, Mozzarella, Zucchini, Pesto, Roasted Pine Nuts, Arugula, Parmesan</dt>
+                    </li>
+                    <li>Karl-Johan<dt style="font-style: italic;">Karl-Johans Mushroom, Mushrooms, Mozzarella, Tomato Sauce, Oregano</dt>
+                    </li>
+                    <li>Fungo Medley<dt style="font-style: italic;">Sautéed Portobello, Cremini, Shiitake Mushrooms, Caramelized Onions, Fresh Thyme, Mozzarella Cheese</dt>
+                    </li>
+                    <li>Caprese Classico<dt style="font-style: italic;">Sliced Tomatoes, Fresh Basil Leaves, Arugula, Balsamic Reduction, Mozzarella, Tomato Sauce</dt>
+                    </li>
+                    <li>Spinaci Ricotta<dt style="font-style: italic;">Sautéed Spinach, Dollops of Ricotta Cheese, Roasted Garlic, Sun-Dried Tomatoes, Mozzarella Cheese</dt>
+                    </li>
+                    <li>Fungo Al Tartufo<dt style="font-style: italic;">Truffle Oil-Infused Mushrooms (Portobello, Shiitake, Truffle), Caramelized Onions, Fresh Thyme, Fontina Cheese</dt>
+                    </li>
+                    <li>Nutella<dt style="font-style: italic;">A dessert pizza with the classic Nutella filling</dt>
+                    </li>
+                </ol>
+            </div>
+            <div class="menu-block" style="background-color:rgba(255, 253, 238, 0.823);">
+                <h2 style="color: red">Seafood Pizzas</h2>
+                <hr>
+                <ol start="32">
+                    <!--Change <dt> to <p> tags-->
+                    <li>Mediterranea<dt style="font-style: italic;">Shrimp, Calamari, Artichoke, Kalamata Olives, Feta Cheese,
+                            Sun-dried Tomatoes, Tomato Sauce, Basil</dt>
+                    </li>
+                    <li>Sicilian<dt style="font-style: italic;">Mussels, Clams, Capers, Black Olives, Cherry Tomatoes, Oregano, Red
+                            pepper flakes, Pecorino</dt>
+                    <li>Tailandese<dt style="font-style: italic;">Coconut-infused Shrimp, Crab, Red Curry Sauce, Bell Peppers,
+                            Pineapple, Red Onion, Mozzarella, Cilantro.</dt>
+                    <li>Garlic Prawn Paradiso<dt style="font-style: italic;">Garlic Marinated Prawns, Roasted Garlic Cloves,
+                            Spinach, Sun-dried Tomatoes, Red Onion, Mozzarella, Olive Oil</dt>
+                    <li>Greca<dt style="font-style: italic;">Grilled Octopus, Cherry Tomatoes, Red Onion, Kalamata Olives, Feta
+                            Cheese, Fresh Dill, Lemon Vinaigrette</dt>
+                    <li>Frutti Di Mare<dt style="font-style: italic;">Tomato Sauce, Mozzarella, Shrimp, Squid, Mussels, Parsley,
+                            Garlic, Arugula and Cherry Tomatoes</dt>
+                    <li>Aragosta Suprema<dt style="font-style: italic;">Lobster Tail, Crab, Scallops, Shrimp, Bell Peppers, Red
+                            Onion, Mozzarella Cheese, Garlic Butter</dt>
+                    <li>Tonno Tropicale<dt style="font-style: italic;">Seared Ahi Tuna, Pineapple Chunks, Mango Slices, Red Bell
+                            Peppers, Red Onion, Cilantro, Sesame Seeds, Sweet Chili Sauce.</dt>
+                    <li>Bruschetta Suprema Di Gamberi<dt style="font-style: italic;">Grilled Shrimp, Fresh Tomato Bruschetta, Fresh
+                            Basil, Balsamic Glaze, Mozzarella Cheese.</dt>
+                    <li>Acciughe<dt style="font-style: italic;">Marinated Anchovies, Sardines, Sun-Dried Tomatoes, Roasted Garlic,
+                            Black Olives, Fresh Rosemary, Olive Tapenade</dt>
+            
+                </ol>
+            </div>
+            </div>
+        </section>
+        <div><a href=#top>
+                <button id="top-menubutton" title="Go to the top">Top of the menu</button>
+             </a>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer>
         <ul>
-          <li href="index.html" id="home">Home</li>
-          <li href=""></li>
-          <li href=""></li>
+            <!--The icons are there thanks to the "Awesome Font" link in the title-->
+            <li>
+                <i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/" target="_blank" rel="noopener">
+                    Facebook</a>
+            </li>
+            <li>
+                <i class="fa-brands fa-square-instagram"></i><a href="https://www.instagram.com/" target="_blank"
+                    rel="noopener">
+                    Instagram</a>
+            </li>
+            <li>
+                <i class="fa-brands fa-square-x-twitter"></i><a href="https://twitter.com/" target="_blank" rel="noopener">
+                    Twitter</a>
+            </li>
+            <li>
+                <i class="fa-brands fa-facebook"></i><a href="https://www.youtube.com/" target="_blank" rel="noopener">
+                    YouTube</a>
+            </li>
         </ul>
-      </nav>
-    </header>
-  </body>
+    </footer>
+</body>
+
 </html>

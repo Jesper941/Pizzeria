@@ -1,46 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description"
-        content="A small family owned pizzeria in the heart of Montreal that makes authentic Italian style pizzas." />
-    <meta name="keywords" content="pizzeria, pizza, italian pizza, food, restaurant, montreal" />
-    <link rel="stylesheet" href="assets\css\style.css">
+  <!--head-->
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--A metadata with a small description of the site-->
+    <meta
+      name="description"
+      content="A small family owned pizzeria in the heart of Montreal that makes authentic Italian style pizzas.">
+    <!--Keywords for search engines-->
+    <meta
+      name="keywords"
+      content="pizzeria, pizza, italian pizza, food, restaurant, montreal">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--This script allows me to add icons in the footer-->
+    <script
+      src="https://kit.fontawesome.com/eb77d55882.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Title of the webpage-->
     <title>Palermo Pizzeria</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <section>
+      <div>
+        <!--Header-->
+        <header id="header">
+          <!--Div that creates the cream text container where the h1 and paragrapg is in-->
+          <div class="transparent-container">
+            <h1>
+              Welcome to <span style="color: red">Palermo</span
+              ><span style="color: green"> Pizzeria</span>
+            </h1>
+            <p>A taste of Italy in the heart of Montreal</p>
+            <!--Inline styling to make this a bit bigger-->
+            <address style="font-size: 1.4em">
+              Reserve a table on: +1 514-861-503-25
+            </address>
+          </div>
+        </header>
         <div>
-            <header id="header">
-                <div class="transparent-container">
-                    <h1>
-                        Welcome to <span style="color: red">Palermo</span><span style="color: green"> Pizzeria</span>
-                    </h1>
-                    <p>A taste of Italy in the heart of Montreal</p>
-                </div>
-            </header>
-            <div>
-                <nav>
-                    <ul>
-                        <li> <a href="index.html" class="nav-link" style="color: red;">Home</a></li>
-                        <li> <a href="menus.html" class="nav-link" style="color: rgb(4, 167, 4);" :>Menu</a></li>
-                        <li> <a href="findus.html" class="nav-link">Find Us</a></li>
-                    </ul>
-            </div>
-            </nav>
-            <div>
-            </div>
+          <!--Navigation bar-->
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html" class="nav-link" style="color: red"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="menus.html"
+                  class="nav-link"
+                  style="color: rgb(4, 167, 4)"
+                  >Menu</a
+                >
+              </li>
+              <li><a href="findus.html" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </section>
+    <!--Main section-->
     <main>
-        <section>
-            <div>
-            </div>
-        </section>
+      <section>
+        <!--div that styles the layout, incluing the display flex-->
+        <div class="home-div">
+          <!--Div that adds some margin and padding to the cream container in the background of the text-->
+          <div class="info-container">
+            <h1 class="h1-homepage">Welcome to Palermo Pizzeria</h1>
+            <!--Here you can edit the text on the landing page-->
+            <p>
+              Nestled in the heart of Montreal, "Palermo Pizzeria" is a beacon
+              of tradition and family heritage. Established in 1947 by Guiseppe
+              Fontana, a World War II veteran, the pizzeria has been a
+              cornerstone of authentic Italian flavors for over seven decades.
+            </p>
+            <p>
+              After returning from the war, Guiseppe's determination led him to
+              create a haven that would encapsulate the essence of his homeland.
+              In a small space with an old wood-fired oven, Palermo Pizzeria was
+              born. The aroma of freshly baked pizzas mingled with the laughter
+              of patrons, creating a welcoming ambiance that felt like home.
+            </p>
+            <p>
+              Over the years, Palermo Pizzeria embraced change while preserving
+              its core values. Guiseppe's children joined the venture, infusing
+              their own creativity while honoring their father's recipes. The
+              pizzeria's legacy expanded, drawing in generations of loyal
+              patrons who were captivated by the authentic Italian flavors.
+            </p>
+            <p>
+              Today, Palermo Pizzeria remains a tribute to family, tradition,
+              and unwavering passion. Each pizza is a masterpiece, a testament
+              to Guiseppe's dedication to preserving the flavors of his
+              heritage. The pizzeria's walls are adorned with faded photographs,
+              telling stories of its rich history.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
-
+    <!--Footer-->
+    <footer>
+      <ul>
+        <!--The icons are there thanks to the "Awesome Font" link in the title-->
+        <li>
+          <i class="fa-brands fa-facebook"></i
+          ><a href="https://www.facebook.com/" target="_blank" rel="noopener">
+            Facebook</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-square-instagram"></i
+          ><a href="https://www.instagram.com/" target="_blank" rel="noopener">
+            Instagram</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-square-x-twitter"></i
+          ><a href="https://twitter.com/" target="_blank" rel="noopener">
+            Twitter</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-facebook"></i
+          ><a href="https://www.youtube.com/" target="_blank" rel="noopener">
+            YouTube</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
