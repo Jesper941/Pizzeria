@@ -242,7 +242,7 @@ background styling for the "Contact us and "Find Us" blocks*/
 "Find Us" parts of the "findus.html" page*/
 #contact-heading,
 #findus-heading {
-    font-size: 3.2em;
+    font-size: 3.2rem;
 }
 
 /*Here you can edit the table with opening times on the Contact page.*/
