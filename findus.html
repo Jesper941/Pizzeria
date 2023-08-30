@@ -1,163 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--head-->
+  <!--head-->
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--A metadata with a small description of the site-->
-    <meta name="description"
-        content="A small family owned pizzeria in the heart of Montreal that makes authentic Italian style pizzas.">
+    <meta
+      name="description"
+      content="A small family owned pizzeria in the heart of Montreal that makes authentic Italian style pizzas."
+    />
     <!--Keywords for search engines-->
-    <meta name="keywords" content="pizzeria, pizza, italian pizza, food, restaurant, montreal">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta
+      name="keywords"
+      content="pizzeria, pizza, italian pizza, food, restaurant, montreal"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!--This script allows me to add icons in the footer-->
-    <script src="https://kit.fontawesome.com/eb77d55882.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/eb77d55882.js"
+      crossorigin="anonymous"
+    ></script>
     <!--Title of the webpage-->
     <title>Palermo Pizzeria</title>
-</head>
-<body>
+  </head>
+  <body>
     <section>
+      <div>
+        <!--Header-->
+        <header id="header">
+          <!--Div that creates the cream text container where the h1 and paragrapg is in-->
+          <div class="transparent-container">
+            <h1>
+              Welcome to <span style="color: red">Palermo</span
+              ><span style="color: green"> Pizzeria</span>
+            </h1>
+            <p>A taste of Italy in the heart of Montreal</p>
+            <!--Inline styling to make this a bit bigger-->
+            <address style="font-size: 1.4em">
+              Reserve a table on: +1 514-861-503-25
+            </address>
+          </div>
+        </header>
         <div>
-            <!--Header-->
-            <header id="header">
-                <!--Div that creates the cream text container where the h1 and paragrapg is in-->
-                <div class="transparent-container">
-                    <h1>
-                        Welcome to <span style="color: red">Palermo</span><span style="color: green"> Pizzeria</span>
-                    </h1>
-                    <p>A taste of Italy in the heart of Montreal</p>
-                    <!--Inline styling to make this a bit bigger-->
-                    <address style="font-size: 1.4em;">Reserve a table on: +1 514-861-503-25</address>
-                </div>
-            </header>
-            <div>
-                <!--Navigation bar-->
-                <nav>
-                    <ul>
-                        <li> <a href="index.html" class="nav-link" style="color: red;">Home</a></li>
-                        <li> <a href="menus.html" class="nav-link" style="color: rgb(4, 167, 4);">Menu</a></li>
-                        <li> <a href="findus.html" class="nav-link">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-            </div>
+          <!--Navigation bar-->
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html" class="nav-link" style="color: red"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="menus.html"
+                  class="nav-link"
+                  style="color: rgb(4, 167, 4)"
+                  >Menu</a
+                >
+              </li>
+              <li><a href="findus.html" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
 
-            <div>
-            </div>
+      <div></div>
     </section>
     <!--Main section of the page-->
     <main>
-        <div class="container">
-            <section class="findus-section">
-                <div class="contact-block">
-                    <h2 id="contact-heading1">Contact Us</h2>
-                    <hr>
-                    <!--The table with the opening hours-->
-                        <h2 id="h2-contact">Our Opening Times & Telephone Times</h2>
-                        <p style="font-size: 1.75rem;"> Call us on: +1 514-861-503-25</p>
-                        <table>
-                            
-                            <tr>
-                                <th>Day</th>
-                                <th>Opening Time</th>
-                                <th>Closing Time</th>
-                            </tr>
-                            <tr>
-                                <td>Monday</td>
-                                <td>11:00 AM</td>
-                                <td>10:00 PM</td>
-                            </tr>
-                            <tr>
-                                <td>Tuesday</td>
-                                <td>11:00 AM</td>
-                                <td>10:00 PM</td>
-                            </tr>
-                            <tr>
-                                <td>Wednesday</td>
-                                <td>11:00 AM</td>
-                                <td>10:00 PM</td>
-                            </tr>
-                            <tr>
-                                <td>Thursday</td>
-                                <td>11:00 AM</td>
-                                <td>10:00 PM</td>
-                            </tr>
-                            <tr>
-                                <td>Friday</td>
-                                <td>11:00 AM</td>
-                                <td>12:00 AM (Midnight)</td>
-                            </tr>
-                            <tr>
-                                <td>Saturday</td>
-                                <td>11:00 AM</td>
-                                <td>12:00 AM (Midnight)</td>
-                            </tr>
-                            <tr>
-                                <td>Sunday</td>
-                                <td>11:00 AM</td>
-                                <td>10:00 PM</td>
-                            </tr>
-                        </table>
-                        <br>
-                        <!--The contact for in the Find Us section-->
-                        <form action="POST" class="contact-form">
-                            <fieldset>
-                                <legend>Booking or Question</legend>
-                                <label for="name">Name:</label>
-                                <input type="text" id="name" name="name" placeholder="Full name" required>
-                                <label for="email">Email:</label>
-                                <input type="email" id="email" name="email" placeholder="abc@gmail.com" required>
-                                <label for="message">Message:</label>
-                                <textarea id="message" name="message" rows="10" cols="50" placeholder="Make your bookings or send your questions here" required></textarea>
-                                <button type="submit" class="submit" value="Send">Submit</button>
-                            </fieldset>
-                        </form>
-                </div>
-            </section>
-            <section class="contact-section">
-                <div class="findus-block">
-                <h2 id="contact-heading2">Find Us</h2>
-                <hr>
-                <!--Company information-->
-                 <p id="information">
-                    410 R. Saint-Vincent, Montréal, QC H2Y 3A5, Canada<br>
-                    Phone Number: +1 514-861-503-25<br>   
-                 </p>
-                 <!--The iframe with Google Maps-->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.151926634292!2d-73.5532857!3d45.5070202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a56f2efc75b%3A0x11ba15b47de91e2f!2sBevo%20Bar%20%2B%20Pizzeria!5e0!3m2!1sen!2sse!4v1693342120698!5m2!1sen!2sse" width="100%" max-widht="700px" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
-            <br>
+      <div class="container">
+        <section class="findus-section">
+          <div class="contact-block">
+            <h2 id="contact-heading1">Contact Us</h2>
+            <hr />
+            <!--The table with the opening hours-->
+            <h2 id="h2-contact">Our Opening Times & Telephone Times</h2>
+            <p style="font-size: 1.75rem">Call us on: +1 514-861-503-25</p>
+            <table>
+              <tr>
+                <th>Day</th>
+                <th>Opening Time</th>
+                <th>Closing Time</th>
+              </tr>
+              <tr>
+                <td>Monday</td>
+                <td>11:00 AM</td>
+                <td>10:00 PM</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>11:00 AM</td>
+                <td>10:00 PM</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>11:00 AM</td>
+                <td>10:00 PM</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>11:00 AM</td>
+                <td>10:00 PM</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>11:00 AM</td>
+                <td>12:00 AM (Midnight)</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>11:00 AM</td>
+                <td>12:00 AM (Midnight)</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>11:00 AM</td>
+                <td>10:00 PM</td>
+              </tr>
+            </table>
+            <br />
+            <!--The contact for in the Find Us section-->
+            <form action="POST" class="contact-form">
+              <fieldset>
+                <legend>Booking or Question</legend>
+                <label for="name">Name:</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Full name"
+                  required
+                />
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="abc@gmail.com"
+                  required
+                />
+                <label for="message">Message:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="10"
+                  cols="50"
+                  placeholder="Make your bookings or send your questions here"
+                  required
+                ></textarea>
+                <button type="submit" class="submit" value="Send">
+                  Submit
+                </button>
+              </fieldset>
+            </form>
+          </div>
+        </section>
+        <section class="contact-section">
+          <div class="findus-block">
+            <h2 id="contact-heading2">Find Us</h2>
+            <hr />
+            <!--Company information-->
+            <p id="information">
+              410 R. Saint-Vincent, Montréal, QC H2Y 3A5, Canada<br />
+              Phone Number: +1 514-861-503-25<br />
+            </p>
+            <!--The iframe with Google Maps-->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.151926634292!2d-73.5532857!3d45.5070202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a56f2efc75b%3A0x11ba15b47de91e2f!2sBevo%20Bar%20%2B%20Pizzeria!5e0!3m2!1sen!2sse!4v1693342120698!5m2!1sen!2sse"
+              style="border: 0; width: 100%; height: 40vh"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <br />
             <!--The back to the top button-->
-            <a href=#top>
-            <button id="top-button" type="button" title="Go to the top">Top of the page</button>
+            <a href="#top">
+              <button id="top-button" type="button" title="Go to the top">
+                Top of the page
+              </button>
             </a>
-            </div>
-            </section>
-        </div>
+          </div>
+        </section>
+      </div>
     </main>
     <!--Footer-->
     <footer>
-        <ul>
-            <!--The icons are there thanks to the "Awesome Font" link in the title-->
-            <li>
-                <i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/" target="_blank" rel="noopener">
-                    Facebook</a>
-            </li>
-            <li>
-                <i class="fa-brands fa-square-instagram"></i><a href="https://www.instagram.com/" target="_blank"
-                    rel="noopener">
-                    Instagram</a>
-            </li>
-            <li>
-                <i class="fa-brands fa-square-x-twitter"></i><a href="https://twitter.com/" target="_blank" rel="noopener">
-                    Twitter</a>
-            </li>
-            <li>
-                <i class="fa-brands fa-facebook"></i><a href="https://www.youtube.com/" target="_blank" rel="noopener">
-                    YouTube</a>
-            </li>
-        </ul>
+      <ul>
+        <!--The icons are there thanks to the "Awesome Font" link in the title-->
+        <li>
+          <i class="fa-brands fa-facebook"></i
+          ><a href="https://www.facebook.com/" target="_blank" rel="noopener">
+            Facebook</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-square-instagram"></i
+          ><a href="https://www.instagram.com/" target="_blank" rel="noopener">
+            Instagram</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-square-x-twitter"></i
+          ><a href="https://twitter.com/" target="_blank" rel="noopener">
+            Twitter</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-facebook"></i
+          ><a href="https://www.youtube.com/" target="_blank" rel="noopener">
+            YouTube</a
+          >
+        </li>
+      </ul>
     </footer>
-    </body>
+  </body>
 </html>
