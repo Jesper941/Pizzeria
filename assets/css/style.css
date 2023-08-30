@@ -240,7 +240,8 @@ background styling for the "Contact us and "Find Us" blocks*/
 
 /*Edit the styling for the headings in both the "Contact" and 
 "Find Us" parts of the "findus.html" page*/
-#contact-heading,
+#contact-heading1,
+#contact-heading2,
 #findus-heading {
     font-size: 3.2rem;
 }
