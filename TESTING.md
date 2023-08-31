@@ -3,11 +3,6 @@
 - [CONTENTS](#contents)
 - [AUTOMATED TESTING](#automated-testing)
   - [W3C Validator](#w3c-validator)
-  - [Lighthouse](#lighthouse)
-  - [Desktop Results](#desktop-results)
-  - [Mobile Results](#mobile-results)
-- [MANUAL TESTING](#manual-testing)
-  - [Testing User Stories](#testing-user-stories)
   - [Full Testing](#full-testing)
 - [Bugs](#bugs)
   - [Known Bugs](#known-bugs)
@@ -28,62 +23,8 @@ I have gone through each page using google chrome developer tools to ensure that
 * [Index Page] ( Pass - Checked the "index.html" using https://validator.w3.org/nu/#textarea )
 * [Menu Page] ( Pass - Checked the "menus.html" using https://validator.w3.org/nu/#textarea )
 * [Index Page] ( Pass - Checked the "findus.html" using https://validator.w3.org/nu/#textarea )
-* [Style.css]( Pass . Checked the "style.css" using )
-
-- - -
-
-### Lighthouse
-
-We used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
-
-Overall, the lighthouse scores are very good, with one or two things that could be improved. A future implementation would be to convert all images to the webp format.
-
-### Desktop Results
-
-* [Index Page](readme/testing/lighthouse/lighthouse-desktop-index.png)
-* [Climate Change Page](readme/testing/lighthouse/lighthouse-desktop-climatechange.png)
-* [Conservation Restoration Page](readme/testing/lighthouse/lighthouse-desktop-conservation.png)
-* [End Plastic Page](readme/testing/lighthouse/lighthouse-desktop-endplastic.png)
-* [Environmental Literacy Page](readme/testing/lighthouse/lighthouse-desktop-enviroliteracy.png)
-* [Food & Environment Page](readme/testing/lighthouse/lighthouse-desktop-foodenvironment.png)
-* [404 Page](readme/testing/lighthouse/lighthouse-desktop-404.png)
-
-### Mobile Results
-
-* [Index Page](readme/testing/lighthouse/lighthouse-mobile-index.png)
-* [Climate Change Page](readme/testing/lighthouse/lighthouse-mobile-climatechange.png)
-* [Conservation Restoration Page](readme/testing/lighthouse/lighthouse-mobile-conservation.png)
-* [End Plastic Page](readme/testing/lighthouse/lighthouse-mobile-endplastic.png)
-* [Environmental Literacy Page](readme/testing/lighthouse/lighthouse-mobile-enviroliteracy.png)
-* [Food & Environment Page](readme/testing/lighthouse/lighthouse-mobile-foodenvironment.png)
-* [404 Page](readme/testing/lighthouse/lighthouse-mobile-404.png)
-
-- - -
-
-## MANUAL TESTING
-
-### Testing User Stories
-
-`First Time Visitors`
-
-| Goals | How are they achieved? | Links & Images |
-| :--- | :--- | :--- |
-| To quickly and easily discover charities that are local to me, that have an environmental focus, and which reflect my values and interests, without having to research and compare a range of organisations. | By selecting the area that the user would like to discover charities in during the first question of the quiz, the user will then be given a personalised charity result based on the area they selected, this is then combined with their selections for the rest of the questions to direct them to a charity that focuses on an environmental cause that they would be interested in. | [Quiz Section Image](readme/testing/user-stories-area.png) |
-| To be profiled for these recommendations through a light-hearted, multiple choice quiz. | We decided that we would like to present the quiz in the style of a buzzfeed quiz, rather than asking users outright to select their preferences of charity type, we have created the questions so that the answer leads towards a certain type of charity. | [Quiz Question Example Image](readme/testing/user-stories-question.png) |
-| To be presented with a link to my recommended organisation’s website. | Upon completion of the quiz the user is then redirected to the relevant page for their charity. ID's have been used to target the correct section of the page that the user is being redirected to, so that when the page opens it will automatically display the right section of the page. | [Quiz Results Image](readme/testing/user-stories-quiz-results.png) |
-| To feel secure in the knowledge that my recommended organisation is a legitimate,  registered charity. | All Charities have been thoroughly researched and we have ensured that each charity is currently running and is registered on the relevent governments charity register.   | [Charity Research Spreadsheet](https://docs.google.com/spreadsheets/d/1PVfykTEjhAZT__f2wiTC8DxzqeNkVgD_EtOPIMHBkMw/edit?usp=sharing) |
-| To  be able to easily navigate back to the homepage after completing the quiz if I wish to repeat the quiz with different answers. | Each page contains the navbar that allows the user to redirect to the home page when ready. | [Navbar Image](readme/navbar.png) |
-| To have a means of learning more about Earth Day, and its theme for 2022, as well as a resource for discovering more organisations that work in these areas. | A link to the official Earth Day website is included in the information section of the home page. |[Earth Day Site Image](readme/testing/earth-day-link.png) |
-
-`Returning Visitors`
-
-*We hope to implement features in a future implementation that will address the requirements of returning visitiors.*
-
-| Goals | How are they achieved? | Images |
-| :--- | :--- | :--- |
-| To be able to access a full list of the charities for my area of choice, without having to navigate the quiz repeatedly to get different results. | To Be Implemented | - |
-| To have different quiz questions presented to me based on my earlier choices in the quiz, creating a sense a variety that encourages repeat use. | To Be Implemented | - |
-
+* [Style.css] ( Pass . Checked the "style.css" using )
+  
 - - -
 
 ### Full Testing
@@ -102,37 +43,46 @@ Google Chrome on Mac and Windows, Safari
 | --- | --- | --- | --- | --- |
 | **NAVBAR** |  |  |  |  |
 |  |  |  |  |  |
-| Logo image link | When clicked you are redirected to the home page | Clicked Logo | Redirected to home page | Pass|
-| Navbar home link | When clicked you are redirected to the home page | Clicked link | Redirected to home page | Pass |
-| Navbar home link - Hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass |
-| Navbar quiz link | When clicked you are redirected to the Quiz Section of the home page | Clicked link | Redirected to quiz section of home page | Pass |
-| Navbar quiz link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass |
-| Navbar information link | When clicked you are redirected to the Information section of the home page | Clicked link | Redirected to information section of home page | Pass |
-| Navbar information link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass |
-| Navbar contact us link | When clicked you are redirected to the Contact Us section of the home page | Clicked link | Redirected to contact us section of home page | Pass |
-| Navbar contact us link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass |
-|  |  |  |  |  |
-| **HERO IMAGE BUTTONS** |  |  |  |  |
-|  |  |  |  |  |
-| Take quiz button | Directs to quiz section of home page | Clicked button | Directed to quiz section of home page | Pass |
-| Take quiz button - hover | When hovered over button changes colour | Hovered over button | Button changes colour | Pass |
-| Show me more button | Directs to the information section of home page | Clicked button | Taken to information section of home page | Pass |
-| Show me more button - hover | When hovered over button changes colour | Hovered over button | Button changes colour | Pass |
-|  |  |  |  |  |
-| **QUIZ** |  |  |  |  |
-|  |  |  |  |  |
+| `Navbar` |
+| Site logo | Redirects to the home page | Click logo |  Redirects to home page | Pass |
+| Site Name | Redirects to home page | Click site name | Redirects to home page | Pass |
+| Home Link | Redirects to home page | Click home link | Redirects to home page | Pass |
+| Login Link (user not logged in) | Redirect to Login page | Click log in link | Redirected to log in page | Pass |
+| Sign up Link (user not logged in)  | Redirect to Sign up page | Click sign up link | Redirected to sign up page | Pass |
+| View all posts link | Redirects the user to the all threads page | Click view all posts link | Redirected to all posts page | Pass |
+| Admin View | Redirects to the admin view page | Click admin view link | Redirected to admin view page | Pass |
+| Logout link (user logged in) | User will be logged out | Click log out link| Redirected to home page - login link available | Pass |
+| `Home Page` |
+| View threads button | Redirects to the threads page | Click button | Redirected to the thread | Pass |
+| Start a new thread button | Modal popup to create new thread | Click button | New thread modal popped up | Pass |
+| `Login Page` |
+| Form - link to sign up page | Redirects user to sign in page | Click link | Redirected to sign up page | Pass |
+| Form - Submission with no information | User prompted to fill in information | clicked submit button with no fields filled out | Form highlighted first empty field | Pass |
+| `Signup Page` |
+| Form - Submission with no information | User prompted to fill in information | clicked submit button with no fields filled out | Form highlighted first empty field | Pass |
+| `New Post Page` |
 | --- | --- | --- | --- | --- |
-|  |  |  |  |  |
-| **INFORMATION SECTION - FIND OUT MORE** |  |  |  |  |
-|  |  |  |  |  |
-| Earth Day 2022 Image | When clicked you are redirected to the page in a new tab | Clicked image | Page opens in a new tab | Pass |
-| Earth Day 2022 Text | When clicked you are redirected to the page in a new tab | Clicked text | Page opens in a new tab | Pass |
-| Global Recycling Day Image | When clicked you are redirected to the page in a new tab | Clicked image | Page opens in a new tab | Pass |
-| Global Recycling Day Text | When clicked you are redirected to the page in a new tab | Clicked text | Page opens in a new tab | Pass |
-| Climate Change Image | When clicked you are redirected to the page in a new tab | Clicked image | Page opens in a new tab | Pass |
-| Climate Change Text | When clicked you are redirected to the page in a new tab | Clicked text | Page opens in a new tab | Pass |
-| BBC Food Calculator Image | When clicked you are redirected to the page in a new tab | Clicked image | Page opens in a new tab | Pass |
-| BBC Food Calculator Text | When clicked you are redirected to the page in a new tab | Clicked text | Page opens in a new tab | Pass |
+| `New Thread Page` |
+| --- | --- | --- | --- | --- |
+| `Threads Page` |
+| --- | --- | --- | --- | --- |
+| `Admin Posts Page` |
+| --- | --- | --- | --- | --- |
+| `Privacy Policy Page` |
+| Link to Terms & Conditions Page | Redirects user to the Terms & Conditions page | Click link | Redirected to the terms & conditions page | Pass |
+| Get Safe Online link | Redirects the user to the get safe online website in a new browser tab | Click link | site opens, but in same browser tab | Fail |
+| Link to Rocket Lawyer site in Attribution section | User is taken to the Rocket Lawyer site in a new browser tab | Click link | Rocket Lawyer site opens, but in same tab | Fail |
+| `Terms and Conditions Page` |
+| Link to Rocket Lawyer site in Attribution section | User is taken to the Rocket Lawyer site in a new browser tab | Click link | 404 page opens | Fail |
+| `404 Page` |
+| (User Logged in) Home Button | User will be redirected to the home page | Click home button | Redirected to the home page | Pass |
+| (Guest User) Login Button | User redirected to the login page | Click login button | Redirected to the login page | Pass |
+| (Guest User) Sign Up Button | User redirected to the sign up page | Click sign up button | Redirected to sign up page | Pass |
+| `Footer` |
+| Footer - Join now button | Redirects user to the sign up page | Click button | Redirected to sign up page | Pass |
+| Footer - Social media links | Opens new tab to the social media site | Clicked each icon | New tabs opened for each site | Pass |
+| Footer - Privacy Policy link | Redirects to the privacy policy page | Clicked link | Redirected to privacy policy page | Pass |
+| footer - Terms and conditions link | Redirects to the terms and conditions page | Clicked link | Redirected to terms and conditions page | Pass |
 |  |  |  |  |  |
 | **CONTACT US** |  |  |  |  |
 |  |  |  |  |  |
