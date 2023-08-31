@@ -106,35 +106,37 @@ The website is built up by 3 pages in total. The home menu that holds some histo
 Each page has the phone number for the pizzeria in it's header.
 Each page also has a nav bar that's easily useable.
 
-### Navitation
+### Navigation
+
+The navigation bar has 3 links that each leads to a different page. i have some CSS styling on them so they change colors depending on which page you are on. The page your own has it's respective link in the nav bar show a green color whilst the other two links show a red color. This goes for all 3 pages.
 
 ![Navigation](assets/images/header-nav.png)
 
 ### Home Page
 
-![Home page](assets/images/pc-index.png)
-
 The home page has a text container where all the history about the restaurant and it's owner is contained.
 The page is responsive and adapts after screen size.
 
-### Menu Page
+![Home page](assets/images/pc-index.png)
 
-![Menu Page](assets/images/menu.png)
+### Menu Page
 
 The menu page is built up of four different div blocks that are responsive to the screen size. It starts with 2 menus per row and as the screen size shrinks, it goes down to showing only 1 menu and it stacks in columns instead.
 It has four ordered lists, one in each div, with all the different options in them. 
 Each list item has a paragraph nested inside them where the toppings are added.
 There is a "Back to the top" button at the bottom that is nested inside an anchor with the #top href.
 
-### Contact Page
+![Menu Page](assets/images/menu.png)
 
-![Contact Page](assets/images/contact.png)
-![Iframe](assets/images/find-us.png)
+### Contact Page
 
 The contact page consists of two different div blocks with a container nested inside them.
 The first container one holds a table with the opening hours and also a form where you can send reservation requests and questions.
 The second container holds the iframe with the location of the restaurant.
 There is a "Back to the top" button at the bottom that is nested inside an anchor with the #top href.
+
+![Contact Page](assets/images/contact.png)
+![Iframe](assets/images/find-us.png)
 
 ### Future Implementations
 
@@ -148,7 +150,7 @@ There is a "Back to the top" button at the bottom that is nested inside an ancho
 
 ### Accessibility
 
-I have tried to ensure the site has been made as accessible as possible by:
+I have done my best to ensure that the website is made as accessible as possible by:
 
 - Using semantic HTML such as section, header, footer, main, etc.
 - Using alt attributes on images where available.
