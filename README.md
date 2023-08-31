@@ -8,11 +8,11 @@ I built this website so that the whole world could take part of this wonderful p
 
 LIVE WEBSITE
 
-[You can view a live version of the website here.]<https://jesper941.github.io/Pizzeria/>
+You can view a live version of the website here.<https://jesper941.github.io/Pizzeria/>
 
 GITHUB PAGES
 
-[You can view the GitHub code pages here.]<https://github.com/Jesper941/Pizzeria>
+You can view the GitHub code pages here.<https://github.com/Jesper941/Pizzeria>
 
 ## CONTENTS
 
