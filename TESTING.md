@@ -3,6 +3,7 @@
 - [CONTENTS](#contents)
 - [AUTOMATED TESTING](#automated-testing)
   - [W3C Validator](#w3c-validator)
+  - [Lighthouse](#)
   - [Full Testing](#full-testing)
 - [Bugs](#bugs)
   - [Known Bugs](#known-bugs)
@@ -23,16 +24,26 @@ I have gone through each page using google chrome developer tools to ensure that
 * [Index Page] ( Pass - Checked the "index.html" using https://validator.w3.org/nu/#textarea )
 * [Menu Page] ( Pass - Checked the "menus.html" using https://validator.w3.org/nu/#textarea )
 * [Index Page] ( Pass - Checked the "findus.html" using https://validator.w3.org/nu/#textarea )
-* [Style.css] ( Pass . Checked the "style.css" using )
+* [Style.css] ( Pass . Checked the "style.css" using https://jigsaw.w3.org/css-validator)
 
-### LIGHTHOUSE
+## Lighthouse
 
 My Lighthouse score were really good for accessability. The performance was not so great so i will try to improve on that part.
 
+### LAPTOP RESULTS
+
+HOME PAGE
+
+<assets/images/score-home.png>
+
 MENU PAGE
 
+<assets/images/score-menu.png
 
-  
+CONTACT PAGE
+
+(assets/images/score-contact.png)
+
 - - -
 
 ### Full Testing
