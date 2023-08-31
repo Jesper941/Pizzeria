@@ -240,7 +240,7 @@ background styling for the "Contact us and "Find Us" blocks*/
     background-color: rgba(255, 248, 220, 0.823);
     padding: 2em;
     font-size: 1.2rem;
-    margin: 5px, 5px, 20px, 5px;
+    margin: 5px 5px 20px 5px;
     padding: 5px;
 }
 
@@ -274,7 +274,7 @@ td {
 
 /*Here you can change the fieldset surrounding the contact form*/
 fieldset {
-    border-width: 2px auto;
+    border-width: 2px;
     max-width: 700px;
     margin: 5% auto;
     padding: 10px;

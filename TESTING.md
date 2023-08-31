@@ -28,7 +28,7 @@ I have gone through each page using google chrome developer tools to ensure that
 * [Index Page] ( Pass - Checked the "index.html" using https://validator.w3.org/nu/#textarea )
 * [Menu Page] ( Pass - Checked the "menus.html" using https://validator.w3.org/nu/#textarea )
 * [Index Page] ( Pass - Checked the "findus.html" using https://validator.w3.org/nu/#textarea )
-* [Style.css](readme/testing/w3-css.png)
+* [Style.css]( Pass . Checked the "style.css" using )
 
 - - -
 
