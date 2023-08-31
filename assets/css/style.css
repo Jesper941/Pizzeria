@@ -139,13 +139,18 @@ nav ul {
 
 a.nav-link:visited {
     /*Styling for once you've clicked a link*/
-    color: #fb3f00;
+    color: red;
     text-decoration: none;
 }
 
 a.nav-link:hover {
     /*Styling for when you're hovering over a link with the mouse*/
     color: #fb3f00;
+    text-decoration: none;
+}
+
+a.nav-link:active {
+    color: green;
     text-decoration: none;
 }
 
@@ -194,7 +199,8 @@ ol li {
 }
 
 /*Change the size and styling of the names of the toppings here*/
-dt {
+ol li p {
+    font-style: italic;
     font-size: 1rem;
     font-weight: normal;
     margin-top: 3px;
