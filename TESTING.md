@@ -26,7 +26,7 @@ I have gone through each page using google chrome developer tools to ensure that
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
 * [Index Page] ( Pass - Checked the "index.html" using https://validator.w3.org/nu/#textarea )
-* [Menu Page] ( Need to change the "dt" in my menus - Checked the "menus.html" using https://validator.w3.org/nu/#textarea )
+* [Menu Page] ( Pass - Checked the "menus.html" using https://validator.w3.org/nu/#textarea )
 * [Index Page] ( Pass - Checked the "findus.html" using https://validator.w3.org/nu/#textarea )
 * [Style.css](readme/testing/w3-css.png)
 
