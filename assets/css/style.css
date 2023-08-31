@@ -321,7 +321,7 @@ button.submit {
     align-items: center;
 
     font-size: 1em;
-    background-color: white;
+    background-color: #ffffff;
     color: red;
     margin-top: 15px;
     margin-bottom: 100px;
@@ -335,7 +335,7 @@ button.submit {
     text-align: center;
 }
 
-/*Edit the styling for the footer here*/
+/*Edit the styliassets/images/colorpalette.pngng for the footer here*/
 footer {
     position: fixed;
     width: 100%;

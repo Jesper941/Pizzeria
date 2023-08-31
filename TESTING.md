@@ -44,9 +44,8 @@ Google Chrome on Mac and Windows, Safari
 | **NAVBAR** |  |  |  |  |
 |  |  |  |  |  |
 | `Navbar` |
-| Site logo | Redirects to the home page | Click logo |  Redirects to home page | Pass |
-| Site Name | Redirects to home page | Click site name | Redirects to home page | Pass |
 | Home Link | Redirects to home page | Click home link | Redirects to home page | Pass |
+| Menu Link | Redirects to menu page | Click menu link | Redirects to home page | Pass |
 | Login Link (user not logged in) | Redirect to Login page | Click log in link | Redirected to log in page | Pass |
 | Sign up Link (user not logged in)  | Redirect to Sign up page | Click sign up link | Redirected to sign up page | Pass |
 | View all posts link | Redirects the user to the all threads page | Click view all posts link | Redirected to all posts page | Pass |
