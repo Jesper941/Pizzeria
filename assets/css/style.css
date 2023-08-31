@@ -254,7 +254,7 @@ background styling for the "Contact us and "Find Us" blocks*/
 
 /*Here you can edit the table with opening times on the Contact page.*/
 table {
-    width: 50%;
+    width: 60%;
     margin: auto;
     border: black solid 2px;
     text-align: left;
@@ -275,18 +275,28 @@ td {
 /*Here you can change the fieldset surrounding the contact form*/
 fieldset {
     border-width: 2px auto;
-    max-width: 600px;
+    max-width: 700px;
     margin: 5% auto;
     padding: 10px;
     box-sizing: border-box;
 }
 
-#message,
+
 input,
 label {
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 10px;
+    padding: 5px;
+    height: 40px;
+}
+
+#message {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 150px;
 }
 
 button.submit {
