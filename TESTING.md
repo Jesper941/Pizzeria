@@ -24,6 +24,14 @@ I have gone through each page using google chrome developer tools to ensure that
 * [Menu Page] ( Pass - Checked the "menus.html" using https://validator.w3.org/nu/#textarea )
 * [Index Page] ( Pass - Checked the "findus.html" using https://validator.w3.org/nu/#textarea )
 * [Style.css] ( Pass . Checked the "style.css" using )
+
+### LIGHTHOUSE
+
+My Lighthouse score were really good for accessability. The performance was not so great so i will try to improve on that part.
+
+MENU PAGE
+
+
   
 - - -
 

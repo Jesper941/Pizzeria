@@ -7,7 +7,11 @@ I built this website so that the whole world could take part of this wonderful p
 
 Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
 
-Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
+[assets/images/responsive.png]
+
+LIVE WEBSITE
+
+[You can view a live version of the website here.]<https://jesper941.github.io/Pizzeria/>
 
 GITHUB PAGES
 
@@ -179,9 +183,12 @@ Here i'm gonna list the credits to all the sources that helped me out during thi
 
 ### Code Used
 
-Some general tips and tricks from youtuber Brocode and his video: <https://youtu.be/HGTJBPNC-Gw?si=MoPalcBbt6jw2o88>
-For the stroke text i went here for help: <https://css-tricks.com/adding-stroke-to-web-text/>
-I took some help from this website when i needed help with styling the pseudo-elements for the links in the nav bar: >https://css-tricks.com/pseudo-class-selectors/>
+1. Some general tips and tricks from youtuber Brocode and his video: <https://youtu.be/HGTJBPNC-Gw?si=MoPalcBbt6jw2o88>
+2. For the stroke text i went here for help: <https://css-tricks.com/adding-stroke-to-web-text/>
+3. I took a lot of help from this website when i needed help with coding and styling the pseudo-elements for the links in the nav bar: <https://stackoverflow.com/questions/10143357/how-to-make-these-buttons-not-appear-as-blue-links>
+4. For help with coding the responsive flexboxes for my text containers, i took help from the flexbox section of this website: <https://www.w3schools.com/css/css3_flexbox_responsive.asp>
+5. To truly understand the meaning and difference between margin and padding, i took help from these sites. <https://www.w3schools.com/css/css_margin.asp> and <https://www.w3schools.com/css/css_padding.asp>
+6. i couldn't figure out how to make the text-containers to not go across the full width of the page, so i use some of the code here to learn and use in my text containers: <https://www.w3schools.com/css/css_max-width.asp>
 
 
 ### Content
