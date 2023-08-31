@@ -28,6 +28,7 @@ GITHUB PAGES
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
   - [Features](#features)
+    - [Navigation](#navigation)
     - [Home Page](#home-page)
     - [Menu Page](#menu-page)
     - [Contact Page](#contact-page)
@@ -105,12 +106,20 @@ The website is built up by 3 pages in total. The home menu that holds some histo
 Each page has the phone number for the pizzeria in it's header.
 Each page also has a nav bar that's easily useable.
 
+### Navitation
+
+![Navigation](assets/images/header-nav.png)
+
 ### Home Page
+
+![Home page](assets/images/pc-index.png)
 
 The home page has a text container where all the history about the restaurant and it's owner is contained.
 The page is responsive and adapts after screen size.
 
 ### Menu Page
+
+![Menu Page](assets/images/menu.png)
 
 The menu page is built up of four different div blocks that are responsive to the screen size. It starts with 2 menus per row and as the screen size shrinks, it goes down to showing only 1 menu and it stacks in columns instead.
 It has four ordered lists, one in each div, with all the different options in them. 
@@ -118,6 +127,9 @@ Each list item has a paragraph nested inside them where the toppings are added.
 There is a "Back to the top" button at the bottom that is nested inside an anchor with the #top href.
 
 ### Contact Page
+
+![Contact Page](assets/images/contact.png)
+![Iframe](assets/images/find-us.png)
 
 The contact page consists of two different div blocks with a container nested inside them.
 The first container one holds a table with the opening hours and also a form where you can send reservation requests and questions.
