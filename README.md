@@ -4,7 +4,7 @@
 This project aims to provide customers with a taste of Italy through a variety of classical, meat, vegetarian, and seafood pizzas. 
 I built this website so that the whole world could take part of this wonderful pizzeria.
 
-[responsiveness](assets/images/responsive.png)
+![responsiveness](assets/images/responsive.png)
 
 LIVE WEBSITE
 
@@ -86,7 +86,7 @@ Here are different kinds of user stories.
 
 The colour scheme for the website came with inspiration from the colors of the italian flag. The cream colors fit in well with the theme and they kind of came to me right away as i was imagining the completed website in my head. 
 
-[Palermo Pizzeria colour palette](assets/images/colorpalette.png)
+![Palermo Pizzeria colour palette](assets/images/colorpalette.png)
 
 ### Typography
 
