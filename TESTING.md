@@ -34,7 +34,7 @@ My Lighthouse score were really good for accessability. The performance was not 
 
 HOME PAGE
 
-<assets/images/score-home.png>
+[home score](assets/images/score-home.png)
 
 MENU PAGE
 
@@ -42,7 +42,7 @@ MENU PAGE
 
 CONTACT PAGE
 
-(assets/images/score-contact.png)
+[Contac score](assets/images/score-contact.png)
 
 - - -
 
@@ -50,11 +50,11 @@ CONTACT PAGE
 
 Full testing was performed on the following devices, and additional testing for other devices was carried out using developer tools:
 
-iMac 2021, MacBook Pro 14 inch 2021, iPhone 13 Pro, Samsung S20, 25 inch monitor, windows laptop
+Laptop, Mobile M, Mobile L and Tablet.
 
 Each device tested the site using the following browsers:
 
-Google Chrome on Mac and Windows, Safari
+Google Chrome on and Windows.
 
 `Index Page`
 
