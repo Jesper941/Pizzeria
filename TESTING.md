@@ -9,9 +9,9 @@
   - [Known Bugs](#known-bugs)
   - [Solved Bugs](#solved-bugs)
 
-Testing was ongoing throughout the entire build. i took help from the Chrome developer tools while building to pinpoint and troubleshoot any issues as i was building the website.
+Testing was ongoing throughout the entire project. I used the Chrome developer tools while coding the website to pinpoint and troubleshoot any issues.
 
-I have gone through each page using google chrome developer tools to ensure that each page is responsive on a variety of different screen sizes and devices.
+I have gone through each step of the quiz using Google Chrome developer tools to ensure that each page is responsive on a variety of different screen sizes and devices.
 
 - - -
 
@@ -22,27 +22,30 @@ I have gone through each page using google chrome developer tools to ensure that
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
 * [Index Page] ( Pass - Checked the "index.html" using https://validator.w3.org/nu/#textarea )
-* [Menu Page] ( Pass - Checked the "menus.html" using https://validator.w3.org/nu/#textarea )
-* [Index Page] ( Pass - Checked the "findus.html" using https://validator.w3.org/nu/#textarea )
-* [Style.css] ( Pass . Checked the "style.css" using https://jigsaw.w3.org/css-validator)
+
+  ![HTML](assets/images/html-validation.png)
+  
+* [CSS Styling] ( Pass - Checked the CSS styling for the website using  https://jigsaw.w3.org/css-validator/ )
+
+  ![CSS](assets/images/css-validation.png)
+  
+* [Javascript] ( Pass - Checked the Javascript code using https://jshint.com/
+
+  ![Jshint](assets/images/jshint.png)
 
 ## Lighthouse
 
-My Lighthouse score were really good for accessability. The performance was not so great so i will try to improve on that part.
+My Lighthouse score was really good for accessibility both on desktop and mobile.
 
 ### LAPTOP RESULTS
 
 HOME PAGE
 
-![home score](assets/images/score-home.png)
+![desktop](assets/images/desktop-lighthouse.png)
 
-MENU PAGE
+### MOBILE RESULTS
 
-![Menu score](assets/images/score-menu.png)
-
-CONTACT PAGE
-
-![Contact score](assets/images/score-contact.png)
+![mobile](assets/images/lighthouse-mobile.png)
 
 - - -
 
@@ -50,11 +53,11 @@ CONTACT PAGE
 
 Full testing was performed on the following devices, and additional testing for other devices was carried out using developer tools:
 
-Laptop, Mobile M, Mobile L and Tablet.
+Laptop, Mobile M, Mobile L, and Tablet.
 
 Each device tested the site using the following browsers:
 
-Google Chrome on and Windows.
+Google Chrome on Windows.
 
 `Index Page`
 
@@ -62,21 +65,16 @@ Google Chrome on and Windows.
 | --- | --- | --- | --- | --- |
 | **NAVBAR** |  |  |  |  |
 |  |  |  |  |  |
-| `Navbar` |
-| Home Link | Redirects to home page | Click home link | Redirects to home page | Pass |
-| Menu Link | Redirects to menu page | Click menu link | Redirects to home page | Pass |
-| Contact Link | Redirect to contact page | Click log in link | Redirected to contact page | Pass |
+| `Header` |
+| NHL Shield Logo | Redirects to home page | Click on the NHL-shield logo | Redirects to home page | Pass |
 | `Home Page` |
-| No functions that resides on the home page that needs testing
-| `Menu Page` |
-| Back-To-Top Button | Redirects user to the top of the page | Click button | Redirected to top of the page | Pass |
-| `Contact Page` |
-| Form - Submission with no information | User prompted to fill in information | clicked submit button with no fields filled out | Form highlighted first empty field | Pass |
-|Iframe | 
-| Back-To-Top Button | Redirects user to the top of the page | Click button | Redirected to top of the page | Pass |
-| `Footer` |
-| Footer - Social media links | Opens new tab to the social media site | Clicked each icon | New tabs opened for each site | Pass |
-|conditions page | Pass |
+| Enter a blank username | Get alert to enter valid username | Enter a username with blank spaces | Alerted to enter valid username | Pass |
+| Start Quiz Button | Start the quiz | Click the start button | Started the quiz | Pass |
+| Answer Button | Register an answer based on the button selected | Click an answer button | Registered answer | Pass |
+| Answer Button - Incorrect Answer | Answer to turn red | Click an incorrect answer | Button turned red | Pass |
+| Answer Button - Correct Answer | Answer to turn green | Click a correct answer | Button turned green | Pass |
+| Answer Button - Other buttons | Other buttons become unclickable | Click any answer | Other buttons became unclickable | Pass |
+| Replay Button | Start the quiz again | Click "Replay" button | Quiz started again | Pass |
 |  |  |  |  |  |
 
 ## Bugs
